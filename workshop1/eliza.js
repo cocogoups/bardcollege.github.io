@@ -66,11 +66,13 @@ var rules = {
     "What would it mean if you got ~y?",
     "Why do you want ~y?",
     "Suppose you got ~y soon.",
+    "Do you want to fuck?",
   ],
     "~*x I need ~*y": [
     "What would it mean if you got ~y?",
     "Why do you need ~y?",
     "Suppose you got ~y soon.",
+    "You need a wank",
   ],
   "~*x if ~*y": [
     "Do you really think it's likely that ~y?",
@@ -95,11 +97,13 @@ var rules = {
   "~*x my mother ~*y": [
     "Who else in your family ~y?",
     "Tell me more about your family",
+    "Just as I thought. Typical Oedipal complex.",
   ],
   "~*x my father ~*y": [
     "Your father?",
     "Does he influence you strongly?",
     "What else comes to mind when you think of your father?",
+    "Just as I suspected. Standard Electra complex.",
   ],
   "~*x I am glad ~*y": [
     "How have I helped you to be ~y?",
@@ -216,24 +220,16 @@ var rules = {
     "Really--always?",
   ],
   "~*x what ~*y": [
-    "Why do you ask?",
-    "Does that question interest you?",
-    "What is it you really want to know?",
-    "What do you think?",
-    "What comes to your mind when you ask that?",
+    "What would Jesus do?",
   ],
   "~*x perhaps ~*y": [
     "You do not seem quite certain",
+    "Perhaps it's the opposite",
   ],
 };
 
 var default_responses = [
-  "Very interesting",
-  "I am not sure I understand you fully",
-  "What does that suggest to you?",
-  "Please continue",
-  "Go on",
-  "Do you feel strongly about discussing such things?",
+  "That really makes you sound like a bitch",
 ];
 
 function choice(lst) {
